@@ -1,0 +1,9 @@
+customer  权限
+guide 导入导出----卫旭阳
+gong  工作台-----贾佳宁
+Schedule 日程-----段飞祥
+tack  任务
+contract 日志----汪媛
+money 审批----崔昕
+product 通讯录---杜书盈
+business 公告----杜书盈

@@ -1,0 +1,31 @@
+/* reset 样式重置 */
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+li { list-style:none; }
+a { text-decoration:none; }
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { border:none; }
+textarea { resize:none; overflow:auto; }
+body { font-size:12px; font-family:"微软雅黑"; }
+/* end reset */
+
+/* public 公共部分*/
+.clear { zoom:1; }   /* 兼容IE浏览器清除浮动 */
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; } /* 左浮动，与右浮动 */
+.fr { float:right; }
+.gradient {         /*  线性渐变兼容写法 */
+	background:-moz-linear-gradient(top, #FFFFFF, #f8f8f8);
+	background:-webkit-linear-gradient(top, #FFFFFF, #f8f8f8);
+	background:-ms-linear-gradient(top, #FFFFFF, #f8f8f8);
+	background:linear-gradient(top, #FFFFFF, #f8f8f8);
+	/* IE9渐变写法 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FFFFFF, endColorstr=#f8f8f8)";
+	+background:#f9f9f9; /* IE6,7只让它看单颜色 */
+}
+.triangle_up, .triangle_down_red, .triangle_down_gray { position:absolute; width:0; height:0; overflow:hidden; border-left:4px solid transparent; border-right:4px solid transparent; }
+.triangle_up { border-bottom:4px solid #ca0309; }   /* 正红小三角形 */
+.triangle_down_red { border-top:4px solid #ca0309; } /* 倒红小三角形 */
+.triangle_down_gray { border-top:4px solid #c4bdbd; } /* 倒灰小三角形 */
+/* end public */
