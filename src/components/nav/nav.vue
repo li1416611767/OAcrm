@@ -4,8 +4,6 @@
             text-color="rgb(190, 190, 192)" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose"
             :collapse="isCollapse" router>
             <el-menu-item index="customer">
-                <i class="el-icon-menu"></i>
-                <span slot="title">权限</span>
             </el-menu-item>
             <el-menu-item v-for="(item,index) in navxuan" :index="item.index">
                 <i class="el-icon-menu"></i>
